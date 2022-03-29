@@ -19,8 +19,8 @@
 //                                                                                                     //
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 class porsche extends car;
-  function new();
+  function new(string c="BLACK");
     $display("In Porsche");
   endfunction  
 endclass
-Porsche p_h=new();
+porsche p_h=new();

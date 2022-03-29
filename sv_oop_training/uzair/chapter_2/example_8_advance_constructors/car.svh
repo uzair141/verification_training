@@ -19,8 +19,9 @@
 //                                                                                                     //
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 class car;
-  color_t color=BLACK;
-  function new();
+  string color;
+  function new(string c="BLACK");
+    color = c;
     $display("In Car");
   endfunction
-endclass
+endclass            
