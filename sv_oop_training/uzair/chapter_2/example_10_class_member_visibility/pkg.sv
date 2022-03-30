@@ -19,9 +19,9 @@
 //                                                                                                     //
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 package pkg;
-  typedef class car;
-  typedef class porsche;
-  
-  `include "car.svh"
-  `include "porsche.svh"
+  typedef class animal;
+  typedef class cat;
+
+  `include "animal.svh"
+  `include "cat.svh"
 endpackage

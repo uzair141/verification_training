@@ -7,7 +7,7 @@
 //                                                                                                     //
 // Create Date:    08-MARCH-2022                                                                       //
 // Design Name:    SV OOP Implementation                                                               //
-// Module Name:    pkg.sv                                                                              //
+// Module Name:    cat.sv                                                                              //
 // Project Name:   SV OOP Training				                                                             //
 // Language:       SystemVerilog			                                                                 //
 //                                                                                                     //
@@ -18,10 +18,9 @@
 // Revision Date:                                                                                      //
 //                                                                                                     //
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
-package pkg;
-  typedef class car;
-  typedef class porsche;
-  
-  `include "car.svh"
-  `include "porsche.svh"
-endpackage
+class cat extends animal;
+  function new();
+    weight = 5;
+    color = "grey";
+  endfunction
+endclass
